@@ -7,7 +7,7 @@ title:               iFraud
 tagline:             'Random Scratch Book'
 description:         'A place to dump everything.'
 url:                 http://ifraud.github.io
-baseurl:             ''
+baseurl:             'http://ifraud.github.io'
 paginate:            4
 
 # About/contact
