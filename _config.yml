@@ -1,6 +1,5 @@
 # Permalinks
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
 # Setup
@@ -9,7 +8,7 @@ tagline:             'Random Scratch Book'
 description:         'A place to dump everything.'
 url:                 http://ifraud.github.io
 baseurl:             ''
-paginate:            5
+paginate:            4
 
 # About/contact
 author:
