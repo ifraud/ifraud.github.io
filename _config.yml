@@ -1,19 +1,16 @@
 # Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+relative_permalinks: true
 
 # Setup
 title:               iFraud
-tagline:             Random Scratch Book
+tagline:             'Random Scratch Book'
+description:         'A place to dump everything.'
 url:                 http://ifraud.github.io
-paginate:            1
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+baseurl:             ''
+paginate:            5
 
 # About/contact
 author:
@@ -22,11 +19,4 @@ author:
   email:             gaddam.vamsidhar@gmail.com
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/ifraud
-
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+version:             1.0.0
