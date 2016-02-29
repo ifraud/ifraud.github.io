@@ -17,7 +17,7 @@ This blog space will be a scratch book for my thoughts that can be out in the op
 ```cpp
 using namespace std;
 int main(int argc, char *argv[]){
-	cout<<"Hello World"<<endl;
-	return 0;
+    cout<<"Hello World"<<endl;
+    return 0;
 }
 ```
