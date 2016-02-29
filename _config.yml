@@ -1,6 +1,6 @@
 # Permalinks
 #
-permalink:           short-urls-jekyll
+permalink:           pretty
 
 # Setup
 title:               iFraud
