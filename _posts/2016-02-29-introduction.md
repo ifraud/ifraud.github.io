@@ -14,7 +14,10 @@ This blog space will be a scratch book for my thoughts that can be out in the op
 
 `Jekyll` is also convenient for demonstrating code, with beautiful formatting.
 
-```python
-s = "Hotel California"
-print s
+```cpp
+using namespace std;
+int main(int argc, char *argv[]){
+	cout<<"Hello World"<<endl;
+	return 0;
+}
 ```
