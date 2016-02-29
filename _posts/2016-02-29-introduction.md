@@ -14,10 +14,12 @@ This blog space will be a scratch book for my thoughts that can be out in the op
 
 `Jekyll` is also convenient for demonstrating code, with beautiful formatting.
 
-``` c++
+``` c_cpp
+
 int main(int argc, char *argv[]){
 	
 	std::cout<<"Hello world"<<std::endl;
 	return 0;
 }
+
 ```
