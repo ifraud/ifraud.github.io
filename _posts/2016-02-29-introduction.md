@@ -8,7 +8,7 @@ This blog space will be a scratch book for my thoughts that can be out in the op
 
 > What is internet if not a `/dev/null` with memory? 
 
-![My helpful screenshot]({{ site.url }}/assets/images/spring.jpg)
+![My helpful screenshot]({{ site.url }}/assets/images/spring.jpg){:height="200px"}
 
 <div class="message"> 
   With all the blabbering done on this particular <b>leap day</b>, I officially restart my blogging activities.
