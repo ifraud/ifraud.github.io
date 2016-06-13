@@ -40,5 +40,23 @@ believe that is upon them, simply because they do not fit into the norm.
 
 > PS: None of this is fiction and all the names here are provided on purpose!
 
-Physical abuse as primary source of education
---------------------------------------------
+
+Physical abuse as a tool for education
+--------------------------------------
+I am completely unaware if I have a problem in writing with my hand, 
+ I did not get my time to figure this out. But needless to say, I hated it! I
+still cannot write a piece of text properly. I have no issues in typing on a
+keyboard and I personally prefer doing that. Anyways, moving to the main topic.
+ In a completely crappy school,
+called Keshava Reddy Public School where
+I unfortunately had to learn my fundamentals in science and mathematics, a
+serious group of largely under-qualified teachers assumed that physical abuse is
+the only road to Education, Discipline and Decency.
+
+Their method of teaching involved largely dictating notes to students where the
+students are supposed to take it down as it was disctated. This notes included
+all possible questions that could end up in the exam. Then, an examination is
+conducted where a subset of questions from the notes are asked, to which the
+only correct answers were the ones in the notes - word-to-word. The textbooks
+had a wealth of knowledge that was irrelevant as long as these *right answers*
+were repeated.   
