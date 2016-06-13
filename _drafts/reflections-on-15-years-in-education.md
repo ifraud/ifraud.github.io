@@ -19,7 +19,7 @@ to change our supervisor for our B.Tech Project due to a fall out with Dr. Mona
 Mathur and Dr. Santanu Chaudhury. B.Lal asked us to wait outside his office.
 </div>
 
-<div class="message>
+<div class="message">
 My meeting with two opponents, Dr. Wei Tsang Ooi from NUS and Dr. Judith Alice
 Redi from TU Delft. One of them in person in Oslo and one online half way across
 the world in singapore, about to commence the defence process of my PhD. The
