@@ -85,7 +85,8 @@ time, one of the girls in my class decided to ask me for notes right infront of
 my mom. I tried to send her off causing suspicions in my mom's head. Naturally,
 she discovered my guilt, it was simply flipping a couple of empty book pages.
 This was reported to the school immediately, mostly because they paid a lot of
-money to the school.
+[money to the
+school](http://www.thehindu.com/news/national/andhra-pradesh/keshava-reddy-deposit-fraud-close-to-rs-700-cr-says-cid/article7839493.ece).
 
 The next day, I went to school and waited at that door. My mind got clouded with
  thoughts hinting me that I made the biggest mistake a student could ever make and
