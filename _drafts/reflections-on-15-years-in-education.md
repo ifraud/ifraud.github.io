@@ -51,11 +51,11 @@ keyboard and I personally prefer doing that. Anyways, moving to the main topic.
 called Keshava Reddy Public School where
 I unfortunately had to learn my fundamentals in science and mathematics, a
 serious group of largely under-qualified teachers assumed that physical abuse is
-the only road to Education, Discipline and Decency.
+the only road to *Education, Discipline and Decency*.
 
 Their method of teaching involved largely dictating notes to students where the
-students are supposed to take it down as it was disctated. This notes included
-all possible questions that could end up in the exam. Then, an examination is
+students are supposed to take it down as it was dictated. This notes included
+all possible questions that could end up in the exam, along with their answers. Then, an examination is
 conducted where a subset of questions from the notes are asked, to which the
 only correct answers were the ones in the notes - word-to-word. The textbooks
 had a wealth of knowledge that was irrelevant as long as these *right answers*
@@ -72,14 +72,14 @@ becoming very successful, scoring the highest possible percentages in all subjec
 in the state of Andhra Pradesh. There was a point, where they thought I might
 have some mental problems. Their obvious solution to setting me straight was
 physical abuse. Except for one teacher, every single one that took a class of
-mine laid hands/canes on me. 
+mine had laid hands/canes on me. 
 
 I never wrote my class notes, they were all empty books. I read from the text
 books and other's notes, attempted the questions *the proper way*. At one particular time, Madhavi
 even crossed out my entire answer sheets saying that my answers were not the
 ones from the class notes, even though a senior lecturer approved of them!
 Obviously, this sort of interaction did not earn me many friends at the time.
- However, my empty books was an open secret to many of the students largely
+ However, my empty books were open secret to many of the students largely
 because I borrowed some notes from other students at times. At one particular
 time, one of the girls in my class decided to ask me for notes right infront of
 my mom. I tried to send her off causing suspicions in my mom's head. Naturally,
@@ -90,4 +90,23 @@ school](http://www.thehindu.com/news/national/andhra-pradesh/keshava-reddy-depos
 
 The next day, I went to school and waited at that door. My mind got clouded with
  thoughts hinting me that I made the biggest mistake a student could ever make and
-that this is the end of my education. 
+that this is the end of my education. Well! Nothing happened, I was forced to
+write most of my notes by kneeling infront of her office for a couple of days.
+To be honest, that was not even close to the worst of my imaginations. 
+Naturally, this sort of episodes caused me to question authority a lot more than
+most people and not bother about what people thought of me.
+ 
+This continued for a couple of years until the board exams for tenth class.
+After that, I broke and informed my parents that I shall only continue my
+education at some other much bigger place outside of the town. 
+
+With an insatiable zeal for knowledge especially in mathematics & physics, the
+two final years of my high school is where I learnt the most and formed all my
+basics. I did not care about the poor background earlier, I just went on to
+learn whatever I could find.  This period, along with availability of high
+quality material and good teachers, paved way into IIT-Delhi, arguably the best
+engineering school in India, for my Bachelors education.
+
+With great power comes free labour
+-----------------------------------
+
