@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Introduction
+tags:
+  - random
 ---
 My first blog post using a `Markdown` language and `Jekyll` builder hosted freely on *Github*. It will take a while for me to get used to this. However, this is by far the simplest blogging means I have seen with by simply using `vim` and `git` on a linux shell.
 

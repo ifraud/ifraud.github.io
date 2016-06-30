@@ -1,0 +1,8 @@
+random:
+  name: Random
+prog:
+  name: Programming
+tut:
+  name: Tutorial
+blog:
+  name: Blog
