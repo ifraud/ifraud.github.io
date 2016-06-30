@@ -13,8 +13,9 @@ in Computer Science* from *University of Oslo*. My mind wanders among
 programming, science, hiking and random thoughts about *everything* under the
 sun. 
 
+![You know my name]({{ site.url }}/assets/images/penguin1.jpg){:height="400px"}
+
 Just drop me a message if you would like to have a tutorial blog post about
 anything related Image processing, computer vision, graphics or parallel
 programming. 
 
-![You know my name]({{ site.url }}/assets/images/penguin1.jpg){:height="200px"}
