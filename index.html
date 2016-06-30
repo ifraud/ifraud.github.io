@@ -11,6 +11,8 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
+    {% assign post = page %}
+    {% include post_tags.html %}
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
