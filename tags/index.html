@@ -9,7 +9,7 @@ sitemap: false
   {% for tag_item in tags %}
   {% assign tag = (tag_item | first) %}
   <li>
-    <a href="{{site.url}}{{site.baseurl}}/tags/{{tag}}">{{site.data.tags[tag].name}}</a>
+    <a href="{{site.baseurl}}/tags/{{tag}}">{{site.data.tags[tag].name}}</a>
 ({{site.tags[tag].size}})
   </li>
   {% endfor %}
