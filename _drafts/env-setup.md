@@ -110,4 +110,25 @@ else ()
 endif ()
 ```
 
+This needs to be placed in a file name 'CMakeLists.txt' along with the source.
+Using the cmake system, we can generate further build files that are dependent
+on the OS. 
 
+| Windows | Linux | Mac |
+| --- | --- | --- |
+| vcproj | Makefile | Makefile |
+
+Then, you can use the build files to further build using the compilers mentioned
+above to make the executable required to run the program. The main advantage of
+using cmake system is that all the dependencies on libraries are resolved
+using the default installations. This is the main reason that the code becomes
+portable and easy to distribute.
+
+Versioning of code
+------------------
+
+A lot of programming works by developing through stages. It is definitely worth
+it to save these stages as they are. This is where a versioning system comes
+very handy. There are several possibilites, but 'git' is my favorite. Also,
+Github provides an amazing free service if you don't mind keeping the code
+opensource.  
