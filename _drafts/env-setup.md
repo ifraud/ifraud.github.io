@@ -12,4 +12,51 @@ interested in using C++ that end up losing interest due to lack of a decent setu
 for small programs. In this post, I am going to provide a very simple yet stable
 development process that provides a way to create portable applications easily. 
 
-> We will be using a combination of cmake, gcc, a bunch of common libraries, CUDA & git 
+> We will be using a combination of cmake, gcc, a bunch of common libraries, CUDA & git.
+
+All these are quite used and there are very many tutorials about setting the
+environments in different operating systems. We will look at each of the steps
+of the dev process individually. 
+
+C++ and libraries
+------------------
+
+If you take an example as following :
+
+```cpp
+#include <cv.h>
+#include <highgui.h>
+
+using namespace cv;
+
+int main( int argc, char** argv )
+{
+ char* imageName = argv[1];
+
+ Mat image;
+ image = imread( imageName, 1 );
+
+ if( argc != 2 || !image.data )
+ {
+   printf( " No image data \n " );
+   return -1;
+ }
+
+ Mat gray_image;
+ cvtColor( image, gray_image, CV_BGR2GRAY );
+
+ imwrite( "../../images/Gray_Image.jpg", gray_image );
+
+ namedWindow( imageName, CV_WINDOW_AUTOSIZE );
+ namedWindow( "Gray image", CV_WINDOW_AUTOSIZE );
+
+ imshow( imageName, image );
+ imshow( "Gray image", gray_image );
+
+ waitKey(0);
+
+ return 0;
+}
+```
+
+
