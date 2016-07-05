@@ -28,7 +28,7 @@ data.addRows([
         var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
         // Draw the chart, setting the allowHtml option to true for the
         // tooltips.
-        chart.draw(data, {allowHtml:true});
+        chart.draw(data, {allowHtml:false});
       }
  </script>
 </head>
