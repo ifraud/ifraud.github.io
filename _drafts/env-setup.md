@@ -6,6 +6,43 @@ tags:
   - tut
 ---
 
+ <head>
+    <script type="text/javascript"
+src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages:["orgchart"]});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+
+        // For each orgchart box, provide the name, manager, and tooltip to
+        // show.
+        data.addRows([
+          [{v:'Mike', f:'Mike<div style="color:red;
+font-style:italic">President</div>'},
+           '', 'The President'],
+          [{v:'Jim', f:'Jim<div style="color:red; font-style:italic">Vice
+President</div>'},
+           'Mike', 'VP'],
+          ['Alice', 'Mike', ''],
+          ['Bob', 'Jim', 'Bob Sponge'],
+          ['Carol', 'Bob', '']
+        ]);
+
+        // Create the chart.
+        var chart = new
+google.visualization.OrgChart(document.getElementById('chart_div'));
+        // Draw the chart, setting the allowHtml option to true for the
+        // tooltips.
+        chart.draw(data, {allowHtml:true});
+      }
+ </script>
+</head>
+
 C++ is an amazing programming language and the recent updates in STL with C++11
 & C++14 make it even more handy. However, there are a lot of programmers
 interested in using C++ that end up losing interest due to lack of a decent setup
@@ -131,4 +168,9 @@ A lot of programming works by developing through stages. It is definitely worth
 it to save these stages as they are. This is where a versioning system comes
 very handy. There are several possibilites, but 'git' is my favorite. Also,
 Github provides an amazing free service if you don't mind keeping the code
-opensource.  
+opensource. 
+
+Once you create a repository on github, you can follow the simple instructions
+there to set it up on your local machine. The  
+
+<div id="chart_div"></div>
