@@ -49,4 +49,4 @@ Just drop me a message if you would like to have a tutorial blog post about
 anything related Image processing, computer vision, graphics or parallel
 programming. 
 
-<div id="chart_div"></div>
+<div id="chart_div" style="width: 600px; height: 400px;"></div>
