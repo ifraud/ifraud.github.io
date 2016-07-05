@@ -2,6 +2,42 @@
 layout: page
 title: About Me
 ---
+ <head>
+    <script type="text/javascript"
+src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages:["orgchart"]});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+
+        // For each orgchart box, provide the name, manager, and tooltip to
+        // show.
+        data.addRows([
+          [{v:'Mike', f:'Mike<div style="color:red;
+font-style:italic">President</div>'},
+           '', 'The President'],
+          [{v:'Jim', f:'Jim<div style="color:red; font-style:italic">Vice
+President</div>'},
+           'Mike', 'VP'],
+          ['Alice', 'Mike', ''],
+          ['Bob', 'Jim', 'Bob Sponge'],
+          ['Carol', 'Bob', '']
+        ]);
+
+        // Create the chart.
+        var chart = new
+google.visualization.OrgChart(document.getElementById('chart_div'));
+        // Draw the chart, setting the allowHtml option to true for the
+        // tooltips.
+        chart.draw(data, {allowHtml:true});
+      }
+ </script>
+</head>
 
 <p class="message">
   Hey there! I am Vamsidhar Reddy Gaddam or simply Vamsi.
@@ -19,3 +55,4 @@ Just drop me a message if you would like to have a tutorial blog post about
 anything related Image processing, computer vision, graphics or parallel
 programming. 
 
+<div id="chart_div"></div>
