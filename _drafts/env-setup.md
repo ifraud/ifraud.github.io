@@ -60,10 +60,54 @@ succesfully, you need the following:
 | Tool/OS | Windows | Linux | Mac |
 | --- | --- | --- | --- |
 | Compiler | Visual-Studio | gcc | gcc/clang |
-| GLUT | freeglut | - | - |
-| OpenCV | - | - | - |
-| CUDA | - | - | - |
+| GLUT | freeglut | " | " |
+| OpenCV | " | " | " |
+| CUDA | " | " | " |
 | git | github-desktop | git | git |
 
 The tutorials on how to get them up and running are available widely. All you
 need to do is a default installation without any tricks.
+
+
+Building code
+---------------
+
+Once the code is written, it needs to be compiled and run as an executable.
+Different operating systems require executables in different ways and 'cmake'
+provides a nice cross-platform way to build these executables from the same
+source code. 
+
+All you need is a simple CMake template that looks the following way:
+
+```cmake
+cmake_minimum_required(VERSION 2.8)
+project( MyCVProject )
+
+option( WITH_CUDA "CUDA Enabled" OFF)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+find_package( OpenCV REQUIRED )
+find_package( CUDA )
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+
+if(WITH_CUDA)
+  if(NOT CUDA_FOUND)
+    message(FATAL_ERROR "Please install CUDA and make it available for Cmake
+      before compiling the code with the WITH_CUDA flag")
+  endif ()
+endif ()
+
+if(WITH_CUDA)
+  cuda_add_executable( DisplayImage DisplayImage.cpp)
+  target_link_libraries(DisplayImage ${OpenCV_LIBS})
+else ()
+  add_executable( DisplayImage DisplayImage.cpp)
+  target_link_libraries( DisplayImage ${OpenCV_LIBS})
+endif ()
+```
+
+
