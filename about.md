@@ -17,6 +17,8 @@ title: About Me
         // For each orgchart box, provide the name, manager, and tooltip to
         // show.
 data.addRows([
+		  ['Mike','',''],
+		  ['Jim', 'Mike',''],
           ['Alice', 'Mike', ''],
           ['Bob', 'Jim', 'Bob Sponge'],
           ['Carol', 'Bob', '']
