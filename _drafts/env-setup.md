@@ -59,8 +59,11 @@ succesfully, you need the following:
 
 | Tool/OS | Windows | Linux | Mac |
 | --- | --- | --- | --- |
-| Compiler | Visual-Studio | gcc | gcc |
-| GLUT | freeglut | -do- | -do- |
+| Compiler | Visual-Studio | gcc | gcc/clang |
+| GLUT | freeglut | - | - |
+| OpenCV | - | - | - |
+| CUDA | - | - | - |
+| git | github-desktop | git | git |
 
-
-
+The tutorials on how to get them up and running are available widely. All you
+need to do is a default installation without any tricks.
