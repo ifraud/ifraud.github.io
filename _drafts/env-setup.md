@@ -135,7 +135,7 @@ opensource.
 
 Once you create a repository on github, you can follow the simple instructions
 there to set it up on your local machine. A lot of tutorials are available for
-getting a good overview of how git can be used for big project. A really good
+getting a good overview of how git can be used for a big project. A really good
 one is available
 [here](http://nvie.com/posts/a-successful-git-branching-model/).
 
@@ -164,5 +164,7 @@ then build and test in an entirely different folder without having to copy
 anything. All you need to do is call `cmake $source_dir` from you build
 directory. This helps in keeping the source directory clean.
 
-
+In order to get started, I am providing an empty template here to use. It
+includes the necessary files to start programming and I hope you have fun with
+it!
 
