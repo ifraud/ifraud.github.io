@@ -2,37 +2,35 @@
 layout: page
 title: About Me
 ---
- <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {packages:["orgchart"]});
-      google.charts.setOnLoadCallback(drawChart);
+<head>
+<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
 
-      function drawChart() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Name');
-        data.addColumn('string', 'Manager');
-        data.addColumn('string', 'ToolTip');
-
-        // For each orgchart box, provide the name, manager, and tooltip to
-        // show.
-data.addRows([
-		  ['Mike','',''],
-		  ['Jim', 'Mike',''],
-          ['Alice', 'Mike', ''],
-          ['Bob', 'Jim', 'Bob Sponge'],
-          ['Carol', 'Bob', '']
-        ]);
-
-        // Create the chart.
-        var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
-        // Draw the chart, setting the allowHtml option to true for the
-        // tooltips.
-        chart.draw(data, {allowHtml:false});
-      }
- </script>
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		theme: "theme2",//theme1
+		title:{
+			text: "Basic Column Chart - CanvasJS"              
+		},
+		animationEnabled: false,   // change to true
+		data: [              
+		{
+			// Change type to "bar", "area", "spline", "pie",etc.
+			type: "column",
+			dataPoints: [
+				{ label: "apple",  y: 10  },
+				{ label: "orange", y: 15  },
+				{ label: "banana", y: 25  },
+				{ label: "mango",  y: 30  },
+				{ label: "grape",  y: 28  }
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
 </head>
-
 <p class="message">
   Hey there! I am Vamsidhar Reddy Gaddam or simply Vamsi.
 </p>
@@ -49,4 +47,4 @@ Just drop me a message if you would like to have a tutorial blog post about
 anything related Image processing, computer vision, graphics or parallel
 programming. 
 
-<div id="chart_div" style="width: 300px; height: 400px;"></div>
+<div id="chartContainer" style="width: 300px; height: 400px;"></div>
