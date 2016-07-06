@@ -134,5 +134,17 @@ Github provides an amazing free service if you don't mind keeping the code
 opensource. 
 
 Once you create a repository on github, you can follow the simple instructions
-there to set it up on your local machine. The  
+there to set it up on your local machine. A lot of tutorials are available for
+getting a good overview of how git can be used for big project. A really good
+one is available
+[here](http://nvie.com/posts/a-successful-git-branching-model/).
+
+In simple words, this is the cycle of staging stuff to git.
+
+1. Make code changes
+2. Add them to git using `git add`
+3. Write a commit for this staging `git commit`
+4. Push them to `remote`
+
+
 
