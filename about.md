@@ -19,4 +19,3 @@ anything related Image processing, computer vision, graphics or parallel
 programming. 
 
 
-{% include comments.html %}
