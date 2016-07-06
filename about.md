@@ -18,3 +18,5 @@ Just drop me a message if you would like to have a tutorial blog post about
 anything related Image processing, computer vision, graphics or parallel
 programming. 
 
+
+{% include comments.html %}
