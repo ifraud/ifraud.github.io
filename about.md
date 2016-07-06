@@ -47,4 +47,4 @@ Just drop me a message if you would like to have a tutorial blog post about
 anything related Image processing, computer vision, graphics or parallel
 programming. 
 
-<div id="chartContainer" style="width: 300px; height: 400px;"></div>
+<div id="chartContainer" style="width: 400px; height: 300px;"></div>
