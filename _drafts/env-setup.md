@@ -22,34 +22,36 @@ C++ and libraries
 ------------------
 
 If you take an
-[example](http://docs.opencv.org/2.4/doc/tutorials/introduction/load_save_image/load_save_image.html) as following :
+[example](http://docs.opencv.org/2.4/doc/tutorials/introduction/load_save_image/load_save_image.html)
+as following, modified to work with OpenCV3+ :
 
 ```cpp
-#include <cv.h>
-#include <highgui.h>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/imgcodecs.hpp>
 
 using namespace cv;
 
 int main( int argc, char** argv )
 {
- char* imageName = argv[1];
- Mat image;
- image = imread( imageName, 1 );
- if( argc != 2 || !image.data )
- {
-   printf( " No image data \n " );
-   return -1;
- }
+		char* imageName = argv[1];
+		Mat image;
+		image = imread( imageName, 1 );
+		if( argc != 2 || !image.data )
+		{
+				printf( " No image data \n " );
+				return -1;
+		}
 
- Mat gray_image;
- cvtColor( image, gray_image, CV_BGR2GRAY );
- imwrite( "Gray_Image.jpg", gray_image );
- namedWindow( imageName, CV_WINDOW_AUTOSIZE );
- namedWindow( "Gray image", CV_WINDOW_AUTOSIZE );
- imshow( imageName, image );
- imshow( "Gray image", gray_image );
- waitKey(0);
- return 0;
+		Mat gray_image;
+		cvtColor( image, gray_image, CV_BGR2GRAY );
+		imwrite( "Gray_Image.jpg", gray_image );
+		namedWindow( imageName, CV_WINDOW_AUTOSIZE );
+		namedWindow( "Gray image", CV_WINDOW_AUTOSIZE );
+		imshow( imageName, image );
+		imshow( "Gray image", gray_image );
+		waitKey(0);
+		return 0;
 }
 ```
 Here we use opencv to read a color image, convert it into gray-scale, save it in
@@ -143,7 +145,7 @@ In simple words, this is the cycle of staging stuff to git.
 
 1. Make code changes
 2. Add them to git using `git add`
-3. Write a commit for this staging `git commit`
+3. Write a commit message for this staging `git commit`
 4. Push them to remote `git push origin master`
 5. Go back to `step 1.`
 
@@ -156,15 +158,16 @@ Organisation of source files
 It is really important not to add binary files to the git, unless they cannot be
 avoided somehow. Especially the files that need to be ignored are the
 executables that can be built using the source files. You can use the
-`.gitignore` in the repository to add list of extensions or files to be ignored.
+`.gitignore` in the repository to add a list of extensions or files to be ignored.
 
 In addition, the advantage of using cmake is that you do not have to be in the
 same folder as your source code. You can make your changes in the source folder,
 then build and test in an entirely different folder without having to copy
-anything. All you need to do is call `cmake $source_dir` from you build
+anything. All you need to do is call `cmake $source_dir` from your build
 directory. This helps in keeping the source directory clean.
 
-In order to get started, I am providing an empty template here to use. It
+In order to get started, I am providing an empty template
+[here](https://github.com/ifraud/empty-cv) to use. It
 includes the necessary files to start programming and I hope you have fun with
 it!
 
