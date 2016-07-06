@@ -144,7 +144,25 @@ In simple words, this is the cycle of staging stuff to git.
 1. Make code changes
 2. Add them to git using `git add`
 3. Write a commit for this staging `git commit`
-4. Push them to `remote`
+4. Push them to remote `git push origin master`
+5. Go back to `step 1.`
+
+In addition, you can sync up your local repository by doing `git pull`. That's
+it really! 
+
+Organisation of source files
+--------------------
+
+It is really important not to add binary files to the git, unless they cannot be
+avoided somehow. Especially the files that need to be ignored are the
+executables that can be built using the source files. You can use the
+`.gitignore` in the repository to add list of extensions or files to be ignored.
+
+In addition, the advantage of using cmake is that you do not have to be in the
+same folder as your source code. You can make your changes in the source folder,
+then build and test in an entirely different folder without having to copy
+anything. All you need to do is call `cmake $source_dir` from you build
+directory. This helps in keeping the source directory clean.
 
 
 
