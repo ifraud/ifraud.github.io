@@ -17,4 +17,45 @@ basic motion laws in physics can be interpreted.
 
 We will be using one and only one curve the whole tutorial, it will change its
 purpose and meaning as we go by. But the curve will remain the same and between
-the exact same points `P1 = (x1,y1)` and `P2 = (x2,y2)`.  
+the exact same points `P1 = (x1,y1)` and `P2 = (x2,y2)`. 
+
+<style>
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+
+<p>
+<button onclick="myMove()">Click Me</button>
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+</script>
+ 
