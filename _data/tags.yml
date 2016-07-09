@@ -6,3 +6,5 @@ tut:
   name: Tutorial
 blog:
   name: Blog
+math:
+  name: Mathematics
