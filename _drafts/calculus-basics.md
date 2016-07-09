@@ -25,9 +25,23 @@ When we *graph* something, we are always showing a *relation* between the variab
 plotted on the different axes. In effect, we can say that `y = f(x)`, where `f`
 is some functions. Some of the examples could be:
 
-> f(x) = x
-> f(x) = $$a^2 + b^2 = c^2$$  
+> $$ f(x) = 3x + 15x^2 $$
 
+Anyways, we all know that two points form a straight line and the slope of the
+line (or inclination) is given by $$ \frac{y2 - y1}{x2 - x1} $$. This is simple!
+Plotting this line along with the curve looks this way. 
+
+`figure`
+
+Instead of one line, if I put a point in the middle of the curve and plot two
+lines, they will have different slopes. The lines along with the plot look this
+way.
+
+`figure`
+
+We make them three, we make them four and on and on. As we increase the number
+of points between x1 and x2, we decrease the distance between two adjacent
+intermediate points. 
 
 
 

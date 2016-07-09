@@ -18,5 +18,3 @@ Just drop me a message here, if you would like to have a tutorial blog post abou
 anything related to Image processing, computer vision, graphics or parallel
 programming. If you want to collaborate or contribute content, I would be gladly
 up for it. In general, I am always up for new ideas! 
-
-> $$f(x) = x^2$$
