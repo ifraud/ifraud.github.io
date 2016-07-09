@@ -19,4 +19,7 @@ anything related to Image processing, computer vision, graphics or parallel
 programming. If you want to collaborate or contribute content, I would be gladly
 up for it. In general, I am always up for new ideas! 
 
+<p>
+<button onclick="myMove()">Click Me</button>
+</p>
 
