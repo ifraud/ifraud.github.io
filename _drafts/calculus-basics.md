@@ -13,7 +13,7 @@ write a small tutorial explaining the basic concepts of limits, differentiation
 and integration. Immediately connecting these concepts, I will also show how
 basic motion laws in physics can be interpreted.
 
-## Slope
+## Slope, Limits, Differentiation & Integration
 
 We will be using one and only one curve the whole tutorial, it will change its
 purpose and meaning as we go by. But the curve will remain the same and between
@@ -40,10 +40,11 @@ way.
 `figure`
 
 We make them three, we make them four and on and on. As we increase the number
-of points between x1 and x2, we decrease the distance between two adjacent
-intermediate points. 
+of points (essentially increasing the number of line) between x1 and x2, we
+decrease the distance between two adjacent intermediate points. 
 
 
+> Differentiation is pretty much finding the slope of a curve at a point!
 
 ## A Moving Car
 <style>
