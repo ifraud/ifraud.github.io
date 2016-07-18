@@ -8,3 +8,7 @@ blog:
   name: Blog
 math:
   name: Mathematics
+physics:
+  name: Physics
+book:
+  name: Book Review
