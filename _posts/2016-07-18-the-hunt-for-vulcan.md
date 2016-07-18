@@ -40,7 +40,7 @@ convincing explanation of why mercury acted that way.
 
 ![Gravitational well around sun]({{ site.url}}/assets/images/hunt-for-vulcan/orbits_gravity_well.en.gif)
 
-*Gravitational well around the sun*
+**Gravitational well around the sun**
 
 
 In summary, the book is a fascinating tale of how Le verrier created the
