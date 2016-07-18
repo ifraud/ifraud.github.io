@@ -34,10 +34,11 @@ Then comes along a young clerk in a patent office using his exceptional
 imagination abilities. His theories changed the world. But in the context of the
 book, he destroyed vulcan. His theory of general relativity provided a
 convincing explanation of why mercury acted that way. 
-
+<p align="center"><img />
 ![Gravitational well around sun]({{ site.url
 }}/assets/images/hunt-for-vulcan/orbits_gravity_well.en.gif)
-
+*Gravitational well around the sun*
+</p>
 In summary, the book is a fascinating tale of how Le verrier created the
 farthest planet in the solar system using the pen and Einstein destroyed the
 supposedly-closest one to the sun using a pen too! 
