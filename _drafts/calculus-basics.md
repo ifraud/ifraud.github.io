@@ -4,6 +4,7 @@ title: The beauty of calculus
 tags:
   - math
   - tut
+  - physics
 ---
 
 Recently, a discussion with a friend made me realize that a lot of students are
