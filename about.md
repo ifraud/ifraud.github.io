@@ -64,7 +64,7 @@ function myFall() {
       if(t*t > 350){
 	 elem.style.top = 350 + 'px';
 	}else{
-	 elem.style.top = 350 + 'px';
+	 elem.style.top = t*t + 'px';
 	}
     }
   }
