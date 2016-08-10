@@ -46,7 +46,8 @@ Physical abuse as a tool for education
 I am completely unaware if I have a problem in writing with my hand, 
  I did not get my time to figure this out. But needless to say, I hated it! I
 still cannot write a piece of text properly. I have no issues in typing on a
-keyboard and I personally prefer doing that. Anyways, moving to the main topic.
+keyboard and I personally prefer doing that much like
+[this](http://theoatmeal.com/blog/handwriting). Anyways, moving to the main topic.
  In a completely crappy school,
 called Keshava Reddy Public School where
 I unfortunately had to learn my fundamentals in science and mathematics, a
@@ -75,8 +76,8 @@ physical abuse. Except for one teacher, every single one that took a class of
 mine had laid hands/canes on me. 
 
 I never wrote my class notes, they were all empty books. I read from the text
-books and other's notes, attempted the questions *the proper way*. At one particular time, Madhavi
-even crossed out my entire answer sheets saying that my answers were not the
+books and other's notes, attempted the questions *the improper way*. At one particular time, Madhavi
+ (the vice principal) even crossed out my entire answer sheets saying that my answers were not the
 ones from the class notes, even though a senior lecturer approved of them!
 Obviously, this sort of interaction did not earn me many friends at the time.
  However, my empty books were open secret to many of the students largely
@@ -107,6 +108,17 @@ learn whatever I could find.  This period, along with availability of high
 quality material and good teachers, paved way into IIT-Delhi, arguably the best
 engineering school in India, for my Bachelors education.
 
-With great power comes free labour
------------------------------------
+With great power comes free labour and unquestioned authority.
+------------------------------------------
+
+My bachelors is where I grew up as a person. By the time I got to IITD - I was
+still an unrest young mind only having had 2 years of proper schooling by far.
+Obviously my social skills were a complete mess - they still are according to
+many standards, but my friends are patient. At IITD, you find mostly smart
+people handpicked from all over India. And most of them have had been the best
+in their schools and had an amazing confidence level. I was rather fascinated by
+these people. But I still kept my distance from any group of people. Most of my
+interactions were individual. This changed across the 4 years of Bachelors
+period where I finally considered myself a part of a group of very good friends. 
+
 

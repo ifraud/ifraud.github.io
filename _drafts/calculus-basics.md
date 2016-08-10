@@ -20,7 +20,8 @@ We will be using one and only one curve the whole tutorial, it will change its
 purpose and meaning as we go by. But the curve will remain the same and between
 the exact same points `P1 = (x1,y1)` and `P2 = (x2,y2)`.
 
-`figure`
+![Figure 1: The one curve that will help us all.]({{site.url}}/assets/images/calculus-basics/figure_1.png)
+
 
 When we *graph* something, we are always showing a *relation* between the variables
 plotted on the different axes. In effect, we can say that `y = f(x)`, where `f`
