@@ -51,7 +51,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
 </p>
 
 <p>
-<button onclick="myMove1()">2-speed fall</button>
+<button onclick="myMove2()">2-speed fall</button>
 </p>
 
 <div id ="myContainer">
