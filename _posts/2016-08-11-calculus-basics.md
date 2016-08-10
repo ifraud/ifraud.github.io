@@ -26,7 +26,7 @@ the exact same points `P1 = (x1,y1)` and `P2 = (x2,y2)`.
 
 When we *graph* something, we are always showing a *relation* between the variables
 plotted on the different axes. In effect, we can say that `y = f(x)`, where `f`
-is some functions. Some of the examples could be:
+is some function. Some of the examples could be:
 
 > $$ f(x) = 3x + 15x^2 $$
 
@@ -47,21 +47,21 @@ way.
 **Figure 3: Putting a point in the middle makes it two lines and $$ dx = 5 $$**
 
 We make them three, we make them four and on and on. As we increase the number
-of points (essentially increasing the number of line) between x1 and x2, we
+of points (essentially increasing the number of lines) between x1 and x2, we
 decrease the distance between two adjacent intermediate points. This is what the concept 
 of `limit` really is. In our case, we reduce the `dx` to almost 0. If we write down the 
-slope with this concept along with putting ($$ y = f(x) $$ and $$ x2 = x1 + dx $$), we get the following:
+slope with this concept along with putting ($$ y = f(x) $$ and $$ x2 = x + dx $$), we get the following:
 
 > $$ \lim_{dx\to0} \frac{f(x+dx) - f(x)}{dx} $$
 
 > Differentiation is pretty much finding the slope of a curve at a point!
 
-At one time in the past, the biggest scientists in europe made a fuss about how to write this and the modern
- notation is commonly written as $$ \frac{dy}{dx} $$.
+At one time in the past, the biggest scientists in europe made a fuss about how to write this and in the modern
+ notation, it is commonly written as $$ \frac{dy}{dx} $$.
 
 All this sounds cool! But then what is `integration` exactly? We will take a U-turn from here. Let us take a plot again,
  this time a simple straight line with one constant value
-- which happens to be the slope that we measured in figure 1. So, if we want the area under this curve, it is simply the area of the rectangle that will give us one `value`.
+- which happens to be the slope that we measured in figure 2. So, if we want the area under this curve, it is simply the area of the rectangle that will give us one `value`.
 
 ![Figure 4: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_4.png)
 
@@ -79,8 +79,8 @@ Let us do the same thing again, let us take the dx all the way to 0, then we get
 
 **Figure 6: A small rectangle with $$ dx\to0 $$**
 
-This area of this teeny-tiny rectangle is what is typically the `value of the integral` at that point x. And if we put all those values together, 
- we get the `indefinite integral` that is often written with capital letter of the function - F(x). So, if we write that down :
+The area of this teeny-tiny rectangle is what is typically known as the `value of the integral` at that point x. And if we put all such values together, 
+ we get the `indefinite integral` that is often written with capital letter of the function - F(x). So, if we write that down with the fancy integral symbol :
 
 > $$ F(x) = \int{f(x)dx} $$
 
@@ -89,7 +89,7 @@ That is it! If we plot all these values together, we will get a curve that kind 
 ## A Dropping ball
 
 Now, let us see how these concepts help us in a physical world. Let us take a random planet with g=2 and no atmosphere. If we drop an apple from some height and 
-see the change in height as a function of time elapsed. It should follow an interesting motion that puzzled a couple of people before who became really 
+see the change in height as a function of time elapsed. It should follow an interesting motion that puzzled a couple of people before, who eventually became really 
 really famous. Go ahead and press the button!
 
 
@@ -142,16 +142,16 @@ this closely, the second apple travels at a constant speed for the whole duratio
 The third apple - it travels with one speed first and then picks up a second speed - like the lines in figure 3 and figure 5. 
 
 So, the only figures left now are figure 6 & figure 1 - and that is what our actual apple follows! It has a speed that slowly increases 
-as time goes by. And this is what we an `acceleration`. So in essence, we have three different properties here - `position, speed and acceleration`.
+as time goes by. And this is what we call an `acceleration`. So in essence, we have three different properties here - `position, speed and acceleration`.
  They are all connected the exact same way `a function, a derivative and its derivative` are connected.  
 
-Even though all of them start at the same place and finish at the same place at the exact same time, their behaviour during the movement is defined by these properties!
+Even though all the apples start at the same place and finish at the same place at the exact same time, their behaviour during the movement is defined by these properties!
 
 <div class="message">
 When it comes to real life, the derivatives and integrals are very nice ways to improve our understanding of trends. we have some places where micro-trends are easily modelled like cross-section area of some solids, immediate acceleration patterns and if we want to model the bigger trends, we then go for an integral. In the exact opposite way, some scenarios give us easy models for the macro-trends like measuring distances or any raw data and if we want to look at the finer trend, we go for a derivative. Often they are also used to find minima & maxima among the trends. There are some very fine tutorials out there for understanding more, this one is written only for entertaining people with the ideas.
 </div>
 
- Now given that the earth has `g` as acceleration, what will be the loss in height of an apple after `t` seconds? And yes!, the animation is a poor depiction of history :)
+Now given that the earth has `g` as acceleration, what will be the loss in height of an apple after `t` seconds? And yes!, the animation is a poor depiction of history :)
 
 
 <script>
