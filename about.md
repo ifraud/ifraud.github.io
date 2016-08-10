@@ -32,7 +32,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
   width: 190px;
   height: 450px;
   position: relative;
-  background: yellow;
+  background-color: #87CEFA;
 }
 #myAnimation {
   width: 50px;
