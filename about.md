@@ -57,11 +57,15 @@ function myFall() {
   var t = 0;
   var id = setInterval(frame, 50);
   function frame() {
-    if (t == 20) {
+    if (t == 19) {
       clearInterval(id);
     } else {
       t++;
-      elem.style.top = t*t + 'px';
+      if(t*t > 350){
+	 elem.style.top = 350 + 'px';
+	}else{
+	 elem.style.top = 350 + 'px';
+	}
     }
   }
 }
