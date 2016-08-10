@@ -40,25 +40,57 @@ see the change in height as a function of time elapsed. The dropping ball looks 
   position: absolute;
   background-color: red;
 }
+
+#myContainer2 {
+  width: 50px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+#myContainer3 {
+  width: 50px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
 </style>
 
 <p>
-<button onclick="myFall()">Make the free fall</button>
+<button onclick="click()">Make the free fall</button>
 </p>
 
-<p>
-<button onclick="myMove1()">Constant speed fall</button>
-</p>
-
-<p>
-<button onclick="myMove2()">2-speed fall</button>
-</p>
 
 <div id ="myContainer">
 <div id ="myAnimation"></div>
 </div>
 
+<div id ="myContainer2">
+<div id ="myAnimation2"></div>
+</div>
+
+<div id ="myContainer3">
+<div id ="myAnimation3"></div>
+</div>
+
 <script>
+
+function click(){
+myFall();
+myMove1();
+myMove2();
+}
 function myFall() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
