@@ -43,7 +43,15 @@ see the change in height as a function of time elapsed. The dropping ball looks 
 </style>
 
 <p>
-<button onclick="myFall()">Animate the ball</button>
+<button onclick="myFall()">Make the free fall</button>
+</p>
+
+<p>
+<button onclick="myMove1()">Constant speed fall</button>
+</p>
+
+<p>
+<button onclick="myMove1()">2-speed fall</button>
 </p>
 
 <div id ="myContainer">
@@ -73,7 +81,7 @@ function myFall() {
 function myMove1() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
-  var id = setInterval(frame, 10);
+  var id = setInterval(frame, 50);
   function frame() {
     if (pos == 350) {
       clearInterval(id);
@@ -83,13 +91,21 @@ function myMove1() {
     }
   }
 }
+
+function myMove2() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 0;
+  var id = setInterval(frame, 50);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+	if(pos > 175){ pos++; }
+      elem.style.top = pos + 'px';
+    }
+  }
+}
 </script>
  
-<p>
-<button onclick="myMove1()">Animate the ball</button>
-</p>
-
-<div id ="myContainer">
-<div id ="myAnimation"></div>
-</div>
 
