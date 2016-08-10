@@ -53,7 +53,7 @@ We make them three, we make them four and on and on. As we increase the number
 of points (essentially increasing the number of line) between x1 and x2, we
 decrease the distance between two adjacent intermediate points. This is what the concept 
 of `limit` really is. In our case, we reduce the `dx` to almost 0. If we write down the 
-slope with this concept, we get the following:
+slope with this concept along with putting ($$ y = f(x) $$ and $$ x2 = x1 + dx $$), we get the following:
 
 > $$ \lim_{dx\to0} \frac{f(x+dx) - f(x)}{dx} $$
 
@@ -62,7 +62,38 @@ slope with this concept, we get the following:
 At one time in the past, the biggest scientists in europe made a fuss about how to write this and the modern
  notation is commonly written as `$$ \frac{dy}{dx} $$`.
 
-## A Moving Car
+All this sounds cool! But then what is `integration` exactly? We will take a U-turn from here. Let us take a plot again,
+ this time a simple straight line with one constant value
+- which happens to be the slope that we measured in figure 1. So, if we want the area under this curve, it is simply the area of the rectangle that will give us one `value`.
+
+[Release]: # ![Figure 4: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_4.png)
+![Figure 4: Plotting the line](../assets/images/calculus-basics/figure_4.png){:height="400px"}
+
+**Figure 4: A single line that forms a rectangle with $$ dx = 10 $$**
+
+So, if we take the slopes of the 2 lines in figure 2 and plot them, they will look like the following image. The areas of these two rectangles will be two `values`. 
+
+[Release]: # ![Figure 5: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_5.png)
+![Figure 5: Plotting the line](../assets/images/calculus-basics/figure_5.png){:height="400px"}
+
+**Figure 5: The two lines that form two rectangles with $$ dx = 5 $$**
+
+Let us do the same thing again, let us take the dx all the way to 0, then we get a teeny-tiny wide rectangle that looks like the following:
+
+[Release]: # ![Figure 6: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_6.png)
+![Figure 6: Plotting the line](../assets/images/calculus-basics/figure_6.png){:height="400px"}
+
+**Figure 6: A small rectangle with $$ dx\to0 $$**
+
+This area of this teeny-tiny rectangle is what is typically the `value of the integral` at that point x. And if we put all those values together, 
+ we get the `indefinite integral` that is often written with capital letter of the function - F(x). So, if we write that down :
+
+> $$ F(x) = \int{f(x)dx} $$
+
+That is it! Now, let us see how these concepts help us in physical world. Let us take a random planet with g=2 and no atmosphere. If we drop a ball from some height and 
+see the change in height as a function of time elapsed. The dropping ball looks the following way.
+
+## A Dropping ball
 <style>
 #myContainer {
   width: 400px;
@@ -79,7 +110,7 @@ At one time in the past, the biggest scientists in europe made a fuss about how 
 </style>
 
 <p>
-<button onclick="myMove()">Animate the car</button>
+<button onclick="myFall()">Animate the ball</button>
 </p>
 
 <div id ="myContainer">
@@ -87,7 +118,22 @@ At one time in the past, the biggest scientists in europe made a fuss about how 
 </div>
 
 <script>
-function myMove() {
+function myFall() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  elem.style.left = 175;
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+    }
+  }
+}
+
+function myMove1() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
   var id = setInterval(frame, 10);
@@ -103,3 +149,11 @@ function myMove() {
 }
 </script>
  
+<p>
+<button onclick="myMove()">Animate the ball</button>
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+

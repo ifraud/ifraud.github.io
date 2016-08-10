@@ -17,4 +17,69 @@ sun.
 Just drop me a message here, if you would like to have a tutorial blog post about
 anything related to Image processing, computer vision, graphics or parallel
 programming. If you want to collaborate or contribute content, I would be gladly
-up for it. In general, I am always up for new ideas! 
+up for it. In general, I am always up for new ideas!
+
+ ## A Dropping ball
+<style>
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+
+<p>
+<button onclick="myFall()">Animate the ball</button>
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+
+<script>
+function myFall() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  elem.style.left = 175;
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+    }
+  }
+}
+
+function myMove1() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  elem.style.left = 175;
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+    }
+  }
+}
+</script>
+ 
+<p>
+<button onclick="myMove()">Animate the ball</button>
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+
