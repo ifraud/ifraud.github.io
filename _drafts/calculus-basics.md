@@ -21,7 +21,7 @@ purpose and meaning as we go by. But the curve will remain the same and between
 the exact same points `P1 = (x1,y1)` and `P2 = (x2,y2)`.
 
 [Release]: # ![Figure 1: The one curve that will help us all.]({{site.url}}/assets/images/calculus-basics/figure_1.png)
-![Figure 1: The one curve that will help us all.](../assets/images/calculus-basics/figure_1.png)
+![Figure 1: The one curve that will help us all.](../assets/images/calculus-basics/figure_1.png){:height="400px"}
 
 **Figure 1: The one curve that will help us all.**
 
