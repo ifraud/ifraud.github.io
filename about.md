@@ -91,7 +91,6 @@ function myFall() {
       elem.style.top = t*t + 'px';
 	}
     }
-  }
 }
 
 function myMove1() {
