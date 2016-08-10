@@ -23,6 +23,7 @@ the exact same points `P1 = (x1,y1)` and `P2 = (x2,y2)`.
 [Release]: # ![Figure 1: The one curve that will help us all.]({{site.url}}/assets/images/calculus-basics/figure_1.png)
 ![Figure 1: The one curve that will help us all.](../assets/images/calculus-basics/figure_1.png)
 
+**Figure 1: The one curve that will help us all.**
 
 When we *graph* something, we are always showing a *relation* between the variables
 plotted on the different axes. In effect, we can say that `y = f(x)`, where `f`
