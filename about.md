@@ -116,6 +116,7 @@ function myMove1() {
       clearInterval(id);
     } else {
       pos = pos+17;
+	if(pos > 350) { pos = 350;}
       elem.style.top = pos + 'px';
     }
   }
@@ -131,6 +132,7 @@ function myMove2() {
     } else {
 	if(pos > 150){ pos = pos+34; }
 	else { pos = pos+17;}
+	if(pos > 350) { pos = 350;}
       elem.style.top = pos + 'px';
     }
   }
