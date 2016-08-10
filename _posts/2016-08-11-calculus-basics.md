@@ -20,8 +20,7 @@ We will be using one and only one curve the whole tutorial, it will change its
 purpose and meaning as we go by. But the curve will remain the same and between
 the exact same points `P1 = (x1,y1)` and `P2 = (x2,y2)`.
 
-[Release]: # ![Figure 1: The one curve that will help us all.]({{site.url}}/assets/images/calculus-basics/figure_1.png)
-![Figure 1: The one curve that will help us all.](../assets/images/calculus-basics/figure_1.png){:height="400px"}
+![Figure 1: The one curve that will help us all.]({{site.url}}/assets/images/calculus-basics/figure_1.png)
 
 **Figure 1: The one curve that will help us all.**
 
@@ -35,8 +34,7 @@ Anyways, we all know that two points form a straight line and the slope of the
 line (or inclination) is given by $$ \frac{y2 - y1}{x2 - x1} $$. This is simple!
 Plotting this line along with the curve looks this way. 
 
-[Release]: # ![Figure 2: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_2.png)
-![Figure 2: Plotting the line](../assets/images/calculus-basics/figure_2.png){:height="400px"}
+![Figure 2: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_2.png)
 
 **Figure 2: If we pay attention to the line, we can see that $$ dx = (x2-x1) $$, with $$ dx = 10 $$**
 
@@ -44,10 +42,9 @@ Instead of one line, if I put a point (P3) in the middle of the curve and plot t
 lines, they will have different slopes. The lines along with the plot look this
 way.
 
-[Release]: # ![Figure 3: Plotting the lines]({{site.url}}/assets/images/calculus-basics/figure_3.png)
-![Figure 2: Plotting the lines](../assets/images/calculus-basics/figure_3.png){:height="400px"}
+![Figure 3: Plotting the lines]({{site.url}}/assets/images/calculus-basics/figure_3.png)
 
-**Figure 2: Putting a point in the middle makes it two lines and $$ dx = 5 $$**
+**Figure 3: Putting a point in the middle makes it two lines and $$ dx = 5 $$**
 
 We make them three, we make them four and on and on. As we increase the number
 of points (essentially increasing the number of line) between x1 and x2, we
@@ -60,28 +57,25 @@ slope with this concept along with putting ($$ y = f(x) $$ and $$ x2 = x1 + dx $
 > Differentiation is pretty much finding the slope of a curve at a point!
 
 At one time in the past, the biggest scientists in europe made a fuss about how to write this and the modern
- notation is commonly written as `$$ \frac{dy}{dx} $$`.
+ notation is commonly written as $$ \frac{dy}{dx} $$.
 
 All this sounds cool! But then what is `integration` exactly? We will take a U-turn from here. Let us take a plot again,
  this time a simple straight line with one constant value
 - which happens to be the slope that we measured in figure 1. So, if we want the area under this curve, it is simply the area of the rectangle that will give us one `value`.
 
-[Release]: # ![Figure 4: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_4.png)
-![Figure 4: Plotting the line](../assets/images/calculus-basics/figure_4.png){:height="400px"}
+![Figure 4: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_4.png)
 
 **Figure 4: A single line that forms a rectangle with $$ dx = 10 $$**
 
 So, if we take the slopes of the 2 lines in figure 2 and plot them, they will look like the following image. The areas of these two rectangles will be two `values`. 
 
-[Release]: # ![Figure 5: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_5.png)
-![Figure 5: Plotting the line](../assets/images/calculus-basics/figure_5.png){:height="400px"}
+![Figure 5: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_5.png)
 
 **Figure 5: The two lines that form two rectangles with $$ dx = 5 $$**
 
 Let us do the same thing again, let us take the dx all the way to 0, then we get a teeny-tiny wide rectangle that looks like the following:
 
-[Release]: # ![Figure 6: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_6.png)
-![Figure 6: Plotting the line](../assets/images/calculus-basics/figure_6.png){:height="400px"}
+![Figure 6: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_6.png)
 
 **Figure 6: A small rectangle with $$ dx\to0 $$**
 
@@ -142,8 +136,8 @@ really famous. Go ahead and press the button!
 <div id ="myAnimation3"></div>
 </div>
 
-Ofcourse, the first apple follows the laws of nature. But what is happening to the second and third apple? If you observe 
- closely, the second apple travels at a constant speed for the whole duration - kind of like the line in figure 2 and figure 4. 
+Ofcourse, the first apple follows the laws of nature. But what is happening to the second and third apple? If we observe 
+this closely, the second apple travels at a constant speed for the whole duration - kind of like the line in figure 2 and figure 4. 
 
 The third apple - it travels with one speed first and then picks up a second speed - kind of like the lines in figure 3 and figure 5. 
 
