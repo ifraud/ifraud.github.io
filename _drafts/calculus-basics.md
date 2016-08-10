@@ -90,11 +90,11 @@ This area of this teeny-tiny rectangle is what is typically the `value of the in
 
 > $$ F(x) = \int{f(x)dx} $$
 
-That is it!
+That is it! If we plot all these values together, we will get a curve that kind of takes us back to figure 1.
 
 ## A Dropping ball
 
-Now, let us see how these concepts help us in physical world. Let us take a random planet with g=2 and no atmosphere. If we drop an apple from some height and 
+Now, let us see how these concepts help us in a physical world. Let us take a random planet with g=2 and no atmosphere. If we drop an apple from some height and 
 see the change in height as a function of time elapsed. It should follow an interesting motion that puzzled a couple of people before who became really 
 really famous. Go ahead and press the button!
 
@@ -153,6 +153,9 @@ as time goes by. And this is what we an `acceleration`. So in essence, we have t
 
 Now given that the earth has `g` as acceleration, what will be the loss in height of an apple after `t` seconds? And yes!, the animation is a poor depiction of history :)
 
+<div class="message">
+Now, when it comes to real life, the derivatives and integrals are very nice ways to improve our understanding of trends. we have some places where micro-trends are easily modelled like cross-section area of some solids, immediate acceleration patterns and if we want to model the bigger trends, we then go for an integral. In the exact opposite way, some scenarios give us easy models for the macro-trends like measuring distances or any raw data and if we want to look at the finer trend, we go for a derivative. Often they are also used to find minima & maxima among the trends. There are some very fine tutorials out there for understanding more, this one is written only for entertaining people with the ideas.
+</div> 
 <script>
 
 function myClick(){
