@@ -55,7 +55,7 @@ function myFall() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
   var t = 0;
-  var id = setInterval(frame, 10);
+  var id = setInterval(frame, 100);
   elem.style.left = 175;
   function frame() {
     if (t == 15) {
