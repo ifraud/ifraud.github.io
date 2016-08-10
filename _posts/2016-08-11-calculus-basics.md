@@ -86,7 +86,7 @@ The area of this teeny-tiny rectangle is what is typically known as the `value o
 
 That is it! If we plot all these values together, we will get a curve that kind of takes us back to figure 1.
 
-## A Dropping ball
+## A Dropping apple
 
 Now, let us see how these concepts help us in a physical world. Let us take a random planet with g=2 and no atmosphere. If we drop an apple from some height and 
 see the change in height as a function of time elapsed. It should follow an interesting motion that puzzled a couple of people before, who eventually became really 
