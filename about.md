@@ -57,7 +57,7 @@ function myFall() {
   var t = 0;
   var id = setInterval(frame, 50);
   function frame() {
-    if (t == 16) {
+    if (t == 20) {
       clearInterval(id);
     } else {
       t++;
