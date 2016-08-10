@@ -51,10 +51,16 @@ way.
 
 We make them three, we make them four and on and on. As we increase the number
 of points (essentially increasing the number of line) between x1 and x2, we
-decrease the distance between two adjacent intermediate points. 
+decrease the distance between two adjacent intermediate points. This is what the concept 
+of `limit` really is. In our case, we reduce the `dx` to almost 0. If we write down the 
+slope with this concept, we get the following:
 
+> $$ \lim_{dx\to0} \frac{f(x+dx) - f(x)}{dx} $$
 
 > Differentiation is pretty much finding the slope of a curve at a point!
+
+At one time in the past, the biggest scientists in europe made a fuss about how to write this and the modern
+ notation is commonly written as `$$ \frac{dy}{dx} $$`.
 
 ## A Moving Car
 <style>
