@@ -68,7 +68,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
 </style>
 
 <p>
-<button onclick="click()">Make the free fall</button>
+<button onclick="myClick()">Make the free fall</button>
 </p>
 
 
@@ -86,7 +86,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
 
 <script>
 
-function click(){
+function myClick(){
 myFall();
 myMove1();
 myMove2();
