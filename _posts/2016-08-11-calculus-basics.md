@@ -137,9 +137,9 @@ really famous. Go ahead and press the button!
 </div>
 
 Ofcourse, the first apple follows the laws of nature. But what is happening to the second and third apple? If we observe 
-this closely, the second apple travels at a constant speed for the whole duration - kind of like the line in figure 2 and figure 4. 
+this closely, the second apple travels at a constant speed for the whole duration - like the line in figure 2 and figure 4. 
 
-The third apple - it travels with one speed first and then picks up a second speed - kind of like the lines in figure 3 and figure 5. 
+The third apple - it travels with one speed first and then picks up a second speed - like the lines in figure 3 and figure 5. 
 
 So, the only figures left now are figure 6 & figure 1 - and that is what our actual apple follows! It has a speed that slowly increases 
 as time goes by. And this is what we an `acceleration`. So in essence, we have three different properties here - `position, speed and acceleration`.
