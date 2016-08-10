@@ -83,10 +83,10 @@ function myMove1() {
   var pos = 0;
   var id = setInterval(frame, 50);
   function frame() {
-    if (pos == 350) {
+    if (pos >= 350) {
       clearInterval(id);
     } else {
-      pos = pos+10;
+      pos = pos+17;
       elem.style.top = pos + 'px';
     }
   }
@@ -100,8 +100,8 @@ function myMove2() {
     if (pos >= 350) {
       clearInterval(id);
     } else {
-	if(pos > 150){ pos = pos+20; }
-	else { pos = pos+10;}
+	if(pos > 150){ pos = pos+17; }
+	else { pos = pos+34;}
       elem.style.top = pos + 'px';
     }
   }
