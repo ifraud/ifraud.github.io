@@ -151,6 +151,8 @@ So, the only figures left now are figure 6 & figure 1 - and that is what our act
 as time goes by. And this is what we an `acceleration`. So in essence, we have three different properties here - `position, speed and acceleration`.
  They are all connected the exact same way `a function, a derivative and its derivative` are connected.  
 
+Even though all of them start at the same place and finish at the same place at the exact same time, their behaviour during the movement is defined by these properties!
+
 <div class="message">
 When it comes to real life, the derivatives and integrals are very nice ways to improve our understanding of trends. we have some places where micro-trends are easily modelled like cross-section area of some solids, immediate acceleration patterns and if we want to model the bigger trends, we then go for an integral. In the exact opposite way, some scenarios give us easy models for the macro-trends like measuring distances or any raw data and if we want to look at the finer trend, we go for a derivative. Often they are also used to find minima & maxima among the trends. There are some very fine tutorials out there for understanding more, this one is written only for entertaining people with the ideas.
 </div>
