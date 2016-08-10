@@ -30,7 +30,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
 <style>
 #myContainer {
   width: 150px;
-  height: 400px;
+  height: 450px;
   position: relative;
   background: yellow;
 }
@@ -41,12 +41,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
   background-color: red;
 }
 
-#myContainer2 {
-  width: 150px;
-  height: 400px;
-  position: relative;
-  background: yellow;
-}
+
 #myAnimation2 {
   width: 50px;
   height: 50px;
@@ -54,12 +49,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
   position: absolute;
   background-color: red;
 }
-#myContainer3 {
-  width: 50px;
-  height: 400px;
-  position: relative;
-  background: yellow;
-}
+
 #myAnimation3 {
   width: 50px;
   height: 50px;
@@ -94,14 +84,11 @@ function myFall() {
   var t = 0;
   var id = setInterval(frame, 75);
   function frame() {
-    if (t == 19) {
+    if (t == 20) {
       clearInterval(id);
     } else {
       t++;
-      if(t*t > 350){
-	 elem.style.top = 350 + 'px';
-	}else{
-	 elem.style.top = t*t + 'px';
+      elem.style.top = t*t + 'px';
 	}
     }
   }
@@ -112,11 +99,10 @@ function myMove1() {
   var pos = 0;
   var id = setInterval(frame, 75);
   function frame() {
-    if (pos >= 350) {
+    if (pos == 400) {
       clearInterval(id);
     } else {
-      pos = pos+17;
-	if(pos > 350) { pos = 350;}
+      pos = pos+20;
       elem.style.top = pos + 'px';
     }
   }
@@ -127,12 +113,11 @@ function myMove2() {
   var pos = 0;
   var id = setInterval(frame, 75);
   function frame() {
-    if (pos >= 350) {
+    if (pos == 400) {
       clearInterval(id);
     } else {
-	if(pos > 150){ pos = pos+34; }
-	else { pos = pos+17;}
-	if(pos > 350) { pos = 350;}
+	if(pos > 200){ pos = pos+40; }
+	else { pos = pos+20;}
       elem.style.top = pos + 'px';
     }
   }
