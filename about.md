@@ -97,7 +97,7 @@ function myMove2() {
   var pos = 0;
   var id = setInterval(frame, 50);
   function frame() {
-    if (pos == 350) {
+    if (pos >= 350) {
       clearInterval(id);
     } else {
 	if(pos > 150){ pos = pos+20; }
