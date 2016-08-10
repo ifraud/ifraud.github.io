@@ -63,7 +63,7 @@ function myFall() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
   var t = 0;
-  var id = setInterval(frame, 100);
+  var id = setInterval(frame, 25);
   function frame() {
     if (t == 19) {
       clearInterval(id);
@@ -81,7 +81,7 @@ function myFall() {
 function myMove1() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
-  var id = setInterval(frame, 100);
+  var id = setInterval(frame, 25);
   function frame() {
     if (pos >= 350) {
       clearInterval(id);
@@ -95,7 +95,7 @@ function myMove1() {
 function myMove2() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
-  var id = setInterval(frame, 100);
+  var id = setInterval(frame, 25);
   function frame() {
     if (pos >= 350) {
       clearInterval(id);
