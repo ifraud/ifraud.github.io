@@ -115,7 +115,7 @@ function myMove2() {
     if (pos == 400) {
       clearInterval(id);
     } else {
-	if(pos > 200){ pos = pos+40; }
+	if(pos >= 200){ pos = pos+40; }
 	else { pos = pos+20;}
       elem.style.top = pos + 'px';
     }
