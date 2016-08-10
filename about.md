@@ -19,10 +19,17 @@ anything related to Image processing, computer vision, graphics or parallel
 programming. If you want to collaborate or contribute content, I would be gladly
 up for it. In general, I am always up for new ideas!
 
- ## A Dropping ball
+That is it!
+
+## A Dropping ball
+
+Now, let us see how these concepts help us in physical world. Let us take a random planet with g=2 and no atmosphere. If we drop a ball from some height and 
+see the change in height as a function of time elapsed. The dropping ball looks the following way.
+
+
 <style>
 #myContainer {
-  width: 400px;
+  width: 50px;
   height: 400px;
   position: relative;
   background: yellow;
@@ -47,14 +54,15 @@ up for it. In general, I am always up for new ideas!
 function myFall() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
-  var id = setInterval(frame, 10);
+  var t = 0;
+  var id = setInterval(frame, 1);
   elem.style.left = 175;
   function frame() {
-    if (pos == 350) {
+    if (t == 15) {
       clearInterval(id);
     } else {
-      pos++;
-      elem.style.top = pos + 'px';
+      t++;
+      elem.style.top = t*t + 'px';
     }
   }
 }
