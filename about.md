@@ -29,7 +29,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
 
 <style>
 #myContainer {
-  width: 150px;
+  width: 190px;
   height: 450px;
   position: relative;
   background: yellow;
@@ -45,7 +45,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
 #myAnimation2 {
   width: 50px;
   height: 50px;
-  left: 50px;
+  left: 70px;
   position: absolute;
   background-color: red;
 }
@@ -53,7 +53,7 @@ see the change in height as a function of time elapsed. The dropping ball looks 
 #myAnimation3 {
   width: 50px;
   height: 50px;
-  left: 100px;
+  left: 140px;
   position: absolute;
   background-color: red;
 }
