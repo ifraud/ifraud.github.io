@@ -58,7 +58,7 @@ function myFall() {
   var id = setInterval(frame, 100);
   elem.style.left = 175;
   function frame() {
-    if (t == 15) {
+    if (t == 16) {
       clearInterval(id);
     } else {
       t++;
