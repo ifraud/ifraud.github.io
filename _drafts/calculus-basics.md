@@ -35,13 +35,19 @@ Anyways, we all know that two points form a straight line and the slope of the
 line (or inclination) is given by $$ \frac{y2 - y1}{x2 - x1} $$. This is simple!
 Plotting this line along with the curve looks this way. 
 
-`figure`
+[Release]: # ![Figure 2: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_2.png)
+![Figure 2: Plotting the line](../assets/images/calculus-basics/figure_2.png){:height="400px"}
 
-Instead of one line, if I put a point in the middle of the curve and plot two
+**Figure 2: If we pay attention to the line, we can see that $$ dx = (x2-x1) $$, with $$ dx = 10 $$**
+
+Instead of one line, if I put a point (P3) in the middle of the curve and plot two
 lines, they will have different slopes. The lines along with the plot look this
 way.
 
-`figure`
+[Release]: # ![Figure 3: Plotting the lines]({{site.url}}/assets/images/calculus-basics/figure_3.png)
+![Figure 2: Plotting the lines](../assets/images/calculus-basics/figure_3.png){:height="400px"}
+
+**Figure 2: Putting a point in the middle makes it two lines and $$ dx = 5 $$**
 
 We make them three, we make them four and on and on. As we increase the number
 of points (essentially increasing the number of line) between x1 and x2, we
