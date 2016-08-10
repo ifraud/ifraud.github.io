@@ -91,6 +91,7 @@ myFall();
 myMove1();
 myMove2();
 }
+
 function myFall() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
@@ -111,7 +112,7 @@ function myFall() {
 }
 
 function myMove1() {
-  var elem = document.getElementById("myAnimation");
+  var elem = document.getElementById("myAnimation2");
   var pos = 0;
   var id = setInterval(frame, 75);
   function frame() {
@@ -125,7 +126,7 @@ function myMove1() {
 }
 
 function myMove2() {
-  var elem = document.getElementById("myAnimation");
+  var elem = document.getElementById("myAnimation3");
   var pos = 0;
   var id = setInterval(frame, 75);
   function frame() {
