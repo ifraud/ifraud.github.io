@@ -147,7 +147,7 @@ Ofcourse, the first apple follows the laws of nature. But what is happening to t
 
 The third apple - it travels with one speed first and then picks up a second speed - kind of like the lines in figure 3 and figure 5. 
 
-So, the only figure left now is figure 6 & figure 1 - and that is what our actual apple follows! It has a speed that slowly increases 
+So, the only figures left now are figure 6 & figure 1 - and that is what our actual apple follows! It has a speed that slowly increases 
 as time goes by. And this is what we an `acceleration`. So in essence, we have three different properties here - `position, speed and acceleration`.
  They are all connected the exact same way `a function, a derivative and its derivative` are connected.  
 
