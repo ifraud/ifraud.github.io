@@ -90,16 +90,21 @@ This area of this teeny-tiny rectangle is what is typically the `value of the in
 
 > $$ F(x) = \int{f(x)dx} $$
 
-That is it! Now, let us see how these concepts help us in physical world. Let us take a random planet with g=2 and no atmosphere. If we drop a ball from some height and 
-see the change in height as a function of time elapsed. The dropping ball looks the following way.
+That is it!
 
 ## A Dropping ball
+
+Now, let us see how these concepts help us in physical world. Let us take a random planet with g=2 and no atmosphere. If we drop an apple from some height and 
+see the change in height as a function of time elapsed. It should follow an interesting motion that puzzled a couple of people before who became really 
+really famous. Go ahead and press the button!
+
+
 <style>
 #myContainer {
-  width: 400px;
-  height: 400px;
+  width: 190px;
+  height: 450px;
   position: relative;
-  background: yellow;
+  background-color: #87CEFA;
 }
 #myAnimation {
   width: 50px;
@@ -107,53 +112,97 @@ see the change in height as a function of time elapsed. The dropping ball looks 
   position: absolute;
   background-color: red;
 }
+
+
+#myAnimation2 {
+  width: 50px;
+  height: 50px;
+  left: 70px;
+  position: absolute;
+  background-color: red;
+}
+
+#myAnimation3 {
+  width: 50px;
+  height: 50px;
+  left: 140px;
+  position: absolute;
+  background-color: red;
+}
 </style>
 
 <p>
-<button onclick="myFall()">Animate the ball</button>
+<button onclick="myClick()">Make them apples fall</button>
 </p>
+
 
 <div id ="myContainer">
 <div id ="myAnimation"></div>
+<div id ="myAnimation2"></div>
+<div id ="myAnimation3"></div>
 </div>
 
+Ofcourse, the first apple follows the laws of nature. But what is happening to the second and third apple? If you observe 
+ closely, the second apple travels at a constant speed for the whole duration - kind of like the line in figure 2 and figure 4. 
+
+The third apple - it travels with one speed first and then picks up a second speed - kind of like the lines in figure 3 and figure 5. 
+
+So, the only figure left now is figure 6 & figure 1 - and that is what our actual apple follows! It has a speed that slowly increases 
+as time goes by. And this is what we an `acceleration`. So in essence, we have three different properties here - `position, speed and acceleration`.
+ They are all connected the exact same way `a function, a derivative and its derivative` are connected.  
+
+Now given that the earth has `g` as acceleration, what will be the loss in height of an apple after `t` seconds? And yes!, the animation is a poor depiction of history :)
+
 <script>
+
+function myClick(){
+myFall();
+myMove1();
+myMove2();
+}
+
 function myFall() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
-  var id = setInterval(frame, 10);
-  elem.style.left = 175;
+  var t = 0;
+  var id = setInterval(frame, 75);
   function frame() {
-    if (pos == 350) {
+    if (t == 20) {
       clearInterval(id);
     } else {
-      pos++;
+      t++;
+      elem.style.top = t*t + 'px';
+	}
+    }
+}
+
+function myMove1() {
+  var elem = document.getElementById("myAnimation2");
+  var pos = 0;
+  var id = setInterval(frame, 75);
+  function frame() {
+    if (pos == 400) {
+      clearInterval(id);
+    } else {
+      pos = pos+20;
       elem.style.top = pos + 'px';
     }
   }
 }
 
-function myMove1() {
-  var elem = document.getElementById("myAnimation");
+function myMove2() {
+  var elem = document.getElementById("myAnimation3");
   var pos = 0;
-  var id = setInterval(frame, 10);
-  elem.style.left = 175;
+  var id = setInterval(frame, 75);
   function frame() {
-    if (pos == 350) {
+    if (pos == 400) {
       clearInterval(id);
     } else {
-      pos++;
+	if(pos >= 100){ pos = pos+30; }
+	else { pos = pos+10;}
       elem.style.top = pos + 'px';
     }
   }
 }
 </script>
  
-<p>
-<button onclick="myMove()">Animate the ball</button>
-</p>
-
-<div id ="myContainer">
-<div id ="myAnimation"></div>
-</div>
-
