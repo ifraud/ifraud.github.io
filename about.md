@@ -55,7 +55,7 @@ function myFall() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
   var t = 0;
-  var id = setInterval(frame, 1);
+  var id = setInterval(frame, 10);
   elem.style.left = 175;
   function frame() {
     if (t == 15) {
@@ -84,7 +84,7 @@ function myMove1() {
 </script>
  
 <p>
-<button onclick="myMove()">Animate the ball</button>
+<button onclick="myMove1()">Animate the ball</button>
 </p>
 
 <div id ="myContainer">
