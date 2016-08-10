@@ -55,8 +55,7 @@ function myFall() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
   var t = 0;
-  var id = setInterval(frame, 100);
-  elem.style.left = 175;
+  var id = setInterval(frame, 50);
   function frame() {
     if (t == 16) {
       clearInterval(id);
@@ -71,7 +70,6 @@ function myMove1() {
   var elem = document.getElementById("myAnimation");
   var pos = 0;
   var id = setInterval(frame, 10);
-  elem.style.left = 175;
   function frame() {
     if (pos == 350) {
       clearInterval(id);
