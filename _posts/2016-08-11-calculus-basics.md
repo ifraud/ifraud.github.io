@@ -82,7 +82,7 @@ Let us do the same thing again, let us take the dx all the way to 0, then we get
 The area of this teeny-tiny rectangle has a specific value at that point x. And if we put all such values from `0 to x`  together, 
  we get the `indefinite integral` that is often written with capital letter of the function - F(x) at x. So, if we write that down with the fancy integral symbol :
 
-> $$ F(x) = \sum_{0}^{x} \lim_{dx\to0} f(x)dx = \int{f(x)dx} $$
+> $$ F(x) = \lim_{dx\to0} \sum_{0}^{x} f(x)dx = \int{f(x)dx} $$
 
 That is it! If we plot all these values together, we will get a curve that kind of takes us back to figure 1.
 
