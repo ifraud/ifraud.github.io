@@ -61,13 +61,13 @@ At one time in the past, the biggest scientists in europe made a fuss about how 
 
 All this sounds cool! But then what is `integration` exactly? We will take a U-turn from here. Let us take a plot again,
  this time a simple straight line with one constant value
-- which happens to be the slope that we measured in figure 2. So, if we want the area under this curve, it is simply the area of the rectangle that will give us one `value`.
+- which happens to be the slope that we measured of the line in figure 2. So, if we want the area under this curve, it is simply the area of the rectangle that will give us one `value`.
 
 ![Figure 4: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_4.png)
 
 **Figure 4: A single line that forms a rectangle with $$ dx = 10 $$**
 
-So, if we take the slopes of the 2 lines in figure 2 and plot them, they will look like the following image. The areas of these two rectangles will be two `values`. 
+So, if we take the slopes of the 2 lines in figure 3 and plot them, they will look like the following image. The areas of these two rectangles will be two `values`. 
 
 ![Figure 5: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_5.png)
 
