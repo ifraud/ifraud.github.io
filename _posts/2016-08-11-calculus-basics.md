@@ -106,6 +106,14 @@ really famous. Go ahead and press the button!
   position: absolute;
   background-color: red;
 }
+#myAnimationSpot {
+  width: 10px;
+  height: 10px;
+  left: 10px;
+  top: 10px;
+  position: relative;
+  background-color: red;
+}
 
 
 #myAnimation2 {
@@ -131,12 +139,12 @@ really famous. Go ahead and press the button!
 
 
 <div id ="myContainer">
-<div id ="myAnimation"></div>
+<div id ="myAnimation"><div id ="myAnimationSpot"></div></div>
 <div id ="myAnimation2"></div>
 <div id ="myAnimation3"></div>
 </div>
 
-Ofcourse, the first apple follows the laws of nature. But what is happening to the second and third apple? If we observe 
+Of course, the first apple follows the laws of nature. But what is happening to the second and third apple? If we observe 
 this closely, the second apple travels at a constant speed for the whole duration - like the line in figure 2 and figure 4. 
 
 The third apple - it travels with one speed first and then picks up a second speed - like the lines in figure 3 and figure 5. 
