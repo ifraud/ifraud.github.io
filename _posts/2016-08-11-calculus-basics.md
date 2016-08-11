@@ -79,10 +79,10 @@ Let us do the same thing again, let us take the dx all the way to 0, then we get
 
 **Figure 6: A small rectangle with $$ dx\to0 $$**
 
-The area of this teeny-tiny rectangle is what is typically known as the `value of the integral` at that point x. And if we put all such values together, 
- we get the `indefinite integral` that is often written with capital letter of the function - F(x). So, if we write that down with the fancy integral symbol :
+The area of this teeny-tiny rectangle has a specific value at that point x. And if we put all such values from `0 to x`  together, 
+ we get the `indefinite integral` that is often written with capital letter of the function - F(x) at x. So, if we write that down with the fancy integral symbol :
 
-> $$ F(x) = \int{f(x)dx} $$
+> $$ F(x) = \sum_{0}^{x} \lim_{dx\to0} f(x)dx = \int{f(x)dx} $$
 
 That is it! If we plot all these values together, we will get a curve that kind of takes us back to figure 1.
 
