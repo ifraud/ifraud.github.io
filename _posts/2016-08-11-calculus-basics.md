@@ -114,6 +114,22 @@ really famous. Go ahead and press the button!
   position: relative;
   background-color: green;
 }
+#myAnimationSpot2 {
+  width: 10px;
+  height: 10px;
+  left: 10px;
+  top: 10px;
+  position: relative;
+  background-color: green;
+}
+#myAnimationSpot3 {
+  width: 10px;
+  height: 10px;
+  left: 10px;
+  top: 10px;
+  position: relative;
+  background-color: green;
+}
 
 
 #myAnimation2 {
@@ -140,8 +156,8 @@ really famous. Go ahead and press the button!
 
 <div id ="myContainer">
 <div id ="myAnimation"><div id ="myAnimationSpot"></div></div>
-<div id ="myAnimation2"></div>
-<div id ="myAnimation3"></div>
+<div id ="myAnimation2"><div id ="myAnimationSpot2"></div></div>
+<div id ="myAnimation3"><div id ="myAnimationSpot3"></div></div>
 </div>
 
 Of course, the first apple follows the laws of nature. But what is happening to the second and third apple? If we observe 
