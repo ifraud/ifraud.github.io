@@ -61,7 +61,7 @@ At one time in the past, the biggest scientists in europe made a fuss about how 
 
 All this sounds cool! But then what is `integration` exactly? We will take a U-turn from here. Let us take a plot again,
  this time a simple straight line with one constant value
-- which happens to be the slope that we measured of the line in figure 2. So, if we want the area under this curve, it is simply the area of the rectangle that will give us one `value`.
+- which happens to be the slope that we measured of the line in figure 2. So, if we want the area under the line in figure 4, it is simply the area of the rectangle that will give us one `value`.
 
 ![Figure 4: Plotting the line]({{site.url}}/assets/images/calculus-basics/figure_4.png)
 
@@ -80,11 +80,16 @@ Let us do the same thing again, let us take the dx all the way to 0, then we get
 **Figure 6: A small rectangle with $$ dx\to0 $$**
 
 The area of this teeny-tiny rectangle has a specific value at that point x. And if we put all such values from `0 to x`  together, 
- we get the `indefinite integral` that is often written with capital letter of the function - F(x) at x. So, if we write that down with the fancy integral symbol :
+ we get the `indefinite integral` that is often written with capital letter of the function - G(x) at x. So, if we write that down with the fancy integral symbol :
 
-> $$ F(x) = \lim_{dx\to0} \sum_{0}^{x} f(x)dx = \int{f(x)dx} $$
+> $$ G(x) = \lim_{dx\to0} \sum_{0}^{x} g(x)dx = \int{g(x)dx} $$
 
-That is it! If we plot all these values together, we will get a curve that kind of takes us back to figure 1.
+That is it! If we plot all these values together, we will get a curve that kind of takes us back to figure 1 - saying :
+
+> $$ f(x) = G(x) + c $$
+
+*c is a random constant, which we will just ignore here!
+
 
 ## A Dropping apple
 
