@@ -57,7 +57,8 @@ slope with this concept along with putting ($$ y = f(x) $$ and $$ x2 = x + dx $$
 > Differentiation is pretty much finding the slope of a curve at a point!
 
 At one time in the past, the biggest scientists in europe made a fuss about how to write this and in the modern
- notation, it is commonly written as $$ \frac{dy}{dx} $$.
+ notation, it is commonly written as $$ \frac{dy}{dx} $$. Since, this may be a function as well - let us call this
+ $$ g(x) $$.
 
 All this sounds cool! But then what is `integration` exactly? We will take a U-turn from here. Let us take a plot again,
  this time a simple straight line with one constant value
