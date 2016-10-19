@@ -6,8 +6,8 @@ tags:
   - book
 ---
 
-After the previous book `The vital
-question`(http://ifraud.github.io/2016/10/13/the-vital-question/), this book
+After the previous book `[The vital
+question](http://ifraud.github.io/2016/10/13/the-vital-question/)`, this book
 took me to a ride at a whole different level from cells - several orders
 heavier - the black holes and such (as the title may have given away). 
 
