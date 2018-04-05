@@ -47,7 +47,7 @@ outside some
  doors being anxious about their future and the definite doom that they
 believe that is upon them, simply because they do not fit into the norm.
 
-> PS: None of this is fiction and all the names here are provided on purpose - Let them all get a credit, good or bad! Also this is not a rant about the education system in India, there are millions of such rants. Honestly I think all education systems suck - they are tailored to be one-fit-for-all systems - but not all students are the same.
+> PS: None of this is fiction and all the names here are provided on purpose - Let them all get a credit, good or bad! Also this is not a rant about the education system in India, there are millions of such rants. Honestly I think all education systems suck - they are tailored to be one-fit-for-all systems - but not all students are the same. This is more about mindsets of different people that handle kids at very important ages that lead them to fully grown adults.
 
 
 Physical abuse as a tool for education
@@ -55,8 +55,8 @@ Physical abuse as a tool for education
 I am completely unaware if I have a problem in writing with my hand, 
  I did not get my time to figure this out. But needless to say, I hated it! I
 still cannot write a piece of text properly. I have no issues in typing on a
-keyboard and I personally prefer doing that much like
-[this](http://theoatmeal.com/blog/handwriting). Anyways, moving to the main topic.
+keyboard and I personally prefer doing that, much like
+[this](http://theoatmeal.com/blog/handwriting). Anyways, moving on to the main topic.
  In a completely crappy school,
 called Keshava Reddy Public School, where
 I unfortunately had to learn my fundamentals in science, mathematics, and everything, a
@@ -86,7 +86,7 @@ becoming very successful, scoring the highest possible percentages in all subjec
 in the state of Andhra Pradesh. There was a point, where they even thought I might
 have a few mental problems. Their obvious solution to setting me straight was
 physical abuse. Except for one teacher, every single one that took a class of
-mine had laid hands/canes on me. 
+mine had laid hands/canes on me.
 
 I never wrote my class notes, they were all empty books. I read from the text
 books and other's notes, attempted the questions *the improper way*. At one particular time, Madhavi
@@ -129,7 +129,7 @@ engineering school in India, for my Bachelors education.
 With great power comes free labour and unquestioned authority.
 ------------------------------------------
 
-My bachelors is where I grew up as a person. By the time I got to IITD - I was
+My bachelors was where I grew up as a person. By the time I got to IITD - I was
 still an unrest young mind only having had 2 years of proper schooling by far.
 Obviously my social skills were a complete mess - they still are according to
 many standards, but my friends are patient. At IITD, you find mostly smart
@@ -143,70 +143,140 @@ Thanks to these awesome few, I learnt a lot about life in general - books, movie
 
 >Those idiots still think that it is cool that I am a changed person, without actually realizing that they were the cause for that change.
 
-During this period, I got to learn a lot about the engineering world too - later to learn that it was just a peek
-really. I was fascinated by using machines to process data, not just crunching numbers - but actual data that
-we interact with every day - sound & videos. I got in touch with Signal Processing, in particular Image processing
- and then into Multimedia systems. The ability to play with some data that we can visually observe has fascinated me,
-I am still kind of doing the same and will always be fascinated by it.
+During this period, I got to learn a lot about the engineering world too -
+later to learn that it was just a peek really. I was fascinated by using
+machines to process data, not just crunching numbers - but actual data that we
+interact with every day - sound & videos. I got in touch with Signal
+Processing, in particular Image processing and then into Multimedia systems.
+The ability to play with some data that we can visually observe has fascinated
+me, I am still kind of doing the same and will always be fascinated by it.
 
-So, we approached in-house Multimedia expert Dr. Santanu Chaudhury to try out a minor project and that went
-quite well. We played with some video processing algorithms on FPGA. My partner then got wary of this person
-and decided to go to another professor. I should have done the same, but me being me. I managed to sweet talk
-another poor guy to pick up the BTech project course which is a 10-credit work done in two parts(3 & 7). Kind of a big deal with
-little flexibility on when to do the project. So the aim is to finish part-1 in 7th semester, then part-2 in 8th semester, enjoy the summer and graduate
-with flying hats in the fall. We got in contact with Dr. Mona Mathur and started our project on video coding.
+So, we approached in-house Multimedia expert Dr. Santanu Chaudhury to try out a
+minor project and that went quite well. We played with some video processing
+algorithms on FPGA. My partner then got wary of this person and decided to go
+to another professor. I should have done the same, but me being me does not
+help. I managed to sweet talk another poor guy to pick up the BTech project
+course which is a 10-credit work done in two parts(3 & 7). Kind of a big deal
+with very little flexibility on when to do the project. So the aim is to finish
+part-1 in 7th semester, then part-2 in 8th semester, enjoy the summer and
+graduate with flying hats in the fall. We got in contact with Dr. Mona Mathur
+and started our project on video coding. Dr. Mona Mathur is an industry person
+who used to work at an esteemed company.
 
-Things were going fine in part-1 until we reached the end. At the end of 7th semester, in addition to most final exams - we also do our
-job placements. Voila! I get an email from Dr. Mona Mathur, to refactor the code - which was her mistake to start with as she *forgot* to give
-the codings standards before we started coding. I tried to tell her that we have a lot of exams and other things now, refactoring an already
-working code before our demo session is not really at the highest of my priorites. Looking back at it, I am still very confused at what is
-wrong with saying that. It is an adult to adult conversation with clash of opinions. Except that is not how anything works in India, as I learnt
-then, even in the most premiere institutes. This is because we have a few *frustrated old* fools with very little accomplished in the past on their
-own, that they feel the need to pick on young minds that are way brighter than these people have ever been. It is a messy situation in IITs really,
- there are several professors - who feel that there are these very sharp young minds that just need a little wisdom to start conquering the world. And
-then there are professors like Dr. Santanu Chaudhury. He belongs to the fool-category I mentioned, he managed to build an empire without actually
-doing anything - he mostly managed people and provided cheap labour to private firms. The problem is that in premiere institutes there are only
-a few of those, but as the we go down the chain - they become the majority.
+Things were going fine in part-1 until we reached the end. At the end of 7th
+semester, in addition to most final exams - we also do our job placements.
+Voila! I get an email from Dr. Mona Mathur, to refactor the code - which was
+her mistake to start with as she *forgot* to give the coding standards before
+we started coding, despite me asking her a couple of times. I tried to tell her
+that we have a lot of exams and other things now, refactoring an already
+working code before our demo session is not really at the highest of my
+priorites. Looking back at it, I am still very confused at what is wrong with
+saying that. It is an adult to adult conversation with a clash of opinions.
+Except that is not how anything works in India, as I learnt then, even in the
+most premiere institutes. It is a messy situation in IITs really, there are
+several professors - who feel that there are these very sharp young minds they
+can help, that just need a little wisdom and help to start conquering the
+world. And then there are professors like Dr. Santanu Chaudhury.
 
-So, we got off to a messy ground with Dr. Mona Mathur, who ended up sharing these conversations at our presentation with the project committee.
-Imagine the need to pick on 19 year old students by being smily with us and sneaking an attack this way. It was just a mess. So, we decided that we
-do not want to continue with her and we decided to switch our supervisors. Then Dr. Santanu Chaudhury, the very respected professor and allegedly renowned
-expert in his field, who even lacks the balls to talk to us straight has decided that Dr. Brijesh Lal is going to play the good cop. So, we waited
-outside his office, he took us in and explained how a messy situation this is now. And he basically said that if we opt to switch the supervisor, we
-have to fail this course and redo it. Irrespective of all the work we have done, they put us in a very awkward situation - almost blackmailing.
-Because, if we fail this course in 7th semester - there is no way that we will graduate on expected time and we have to prolong our bachelors by
-another year. I said 'okay - we will take the fail grade' because I was done with their bull-shit. Here again, I could have given in and take another
-semester of torture to get our degree in time. But I did not. Instead, we went back to Dr. Santanu Chaudhury, because he was conveniently the associate
-dean of the school too. We asked him to let us do both parts in the same semester or do part-2 in summer semester. He agreed! We made a deal with another
-professor to do all the work in the 8th semester and just do the formalities in summer. So, everything was good.
+So, we got off to a messy ground with Dr. Mona Mathur, who ended up sharing
+these conversations at our presentation with the project committee.  Imagine
+the need to pick on 19 year old students by being smily with us and sneaking an
+attack this way. It was just a mess. So, we decided that we do not want to
+continue with her and we decided to switch our supervisors. Then Dr. Santanu
+Chaudhury has decided that Dr.
+Brijesh Lal is going to play the good cop. So, we waited outside his office, he
+took us in and explained how a messy situation this is now. And he basically
+said that if we opt to switch the supervisor, we have to fail this course and
+redo it. Irrespective of all the work we have done, they put us in a very
+awkward situation - almost blackmailing.  Because, if we fail this course in
+7th semester - there is no way that we will graduate on expected time and we
+have to prolong our bachelors by another year. I said 'okay - we will take the
+fail grade' because I was done with their bull-shit. Here again, I could have
+given in and take another semester of torture to get our degree in time. But I
+did not. Instead, we went back to Dr. Santanu Chaudhury, because he was
+conveniently the associate dean of the school too. We asked him to let us do
+both parts in the same semester or do part-2 in summer semester. He agreed! We
+made a deal with another professor to do all the work in the 8th semester and
+just do the formalities in summer. So, everything was good.
 
-Well, except that the penis battles were not done yet. Dr. Santanu Chaudhury, declined us to register the course in summer semester and declined to discuss
-the issue with us. So, the extension became inevitable and we had no clue what to do. I approached the head of the department and after listening to the whole
-fiasco, Dr. R. K. Patney and Dr. Visweswaran decided to help us. So, we made a case to the director to amend the IIT-Delhi rules to accomodate us to finish
-this course in summer - with pretty much the whole department supporting us actually including Dr. Brijesh Lal.
-It went to the director, he approved it and it went to the dean for registration.
-Dr. Santanu Chaudhury still being the associate dean decided to stall the work until the summer is over - this is unfortunately a very common thing to do in
-Indian bureaucracy. So, we had to get the pressure from ministry of education to let him stop his war with 2 clue-less undergrad students and do his fucking
-job of graduating students properly. When all of this was done, the department joked about having to turn the sky up-side down to see us graduate. We laughed too
-then! But we did not do well for about 7 months before that, there was a lot of stress and anxiety - to find a job during placements. Once we got the jobs, we were not
-sure if we can still keep those if we had our graduation date extended. Unfortunately, I am responsible for all this to happen to poor Gaurav Berry, the affected teammate. Imagine that both
-of us cleared the national level entrance examination which was written by approximately 200,000 students by being in the top 200. Then we encounter this shit-storm
-due to very two very shitty people and a system that allows such people to pursue their power until very far. When I put it that way, it makes no sense - however we had
-to deal with that for over 7 months.
+Well, except that it was not all good yet. Dr. Santanu Chaudhury,
+declined us to register the course in summer semester and declined to discuss
+the issue with us. So, the extension became inevitable and we had no clue what
+to do. We approached the head of the department and after listening to the whole
+fiasco, Dr. R. K. Patney and Dr. Visweswaran decided to help us. So, we made a
+case to the director to amend the IIT-Delhi rules to accomodate us to finish
+this course in summer - with pretty much the whole department supporting us
+actually including Dr. Brijesh Lal. It went to the director, he approved it
+and it went to the dean for registration.  Dr. Santanu Chaudhury still being
+the associate dean decided to stall the work until the summer is over - this is
+unfortunately a very common thing to do in Indian bureaucracy. So, we had to
+get the pressure from ministry of education to let him stop his war with 2
+clue-less undergrad students and do his job of graduating students
+properly. When all of this was done, the department joked about having to turn
+the sky up-side down to see us graduate. We laughed too then! But we did not do
+well for about 7 months before that, there was a lot of stress and anxiety - to
+find a job during placements. Once we got the jobs, we were not sure if we can
+still keep those if we had our graduation date extended. Unfortunately, I am
+responsible for all this to happen to poor Gaurav Berry, the affected teammate.
+Imagine that both of us cleared the national level entrance examination which
+was written by approximately 200,000 students by being in the top 200. Then we
+encounter this shit-storm due to very two non-sensible people and a system that
+allows such people to pursue their power until very far. When I put it that
+way, it makes no sense - however we had to deal with that for over 7 months.
 
-The sad part is that there are many poor students that are still suffering in those institutes mostly due to very few shitty professors, even one is bad.
-They even have a few suicides in the premiere institutes of India, the biggest democracy in the world - because these top-minds feel opressed and that is their only way out.
+The sad part is that there are many poor students that are still suffering in
+those institutes mostly due to very few shitty professors.
+They even have a few suicides in these premiere institutes of India, the biggest
+democracy in the world - because these top-minds feel opressed and that is
+their only way out.
 
 For students:
-When shit hits the fan due to circumstances or shitty people, do not worry - make more noise, there are powerful people out there that do want to help you. You just need
-to make enough noise to reach them.
+When shit hits the fan due to circumstances or shitty people, do not worry -
+make more noise, there are powerful people out there that do want to help you.
+You just need to make enough noise to reach them.
 
 For parents:
-The reason that this story is going out now is because people in India think that all their kids are going to find in IIT is glory and fat salary packages. Due to those pursuits,
-they put stress on very young kids - stop doing that, don't be a shitty parent.
+The reason that this story is going out now is because people in India think
+that all their kids are going to find in IIT is glory and fat salary packages.
+Due to those pursuits, they put stress on very young kids - stop doing that,
+don't be a shitty parent.
 
 
 The best people in the field (or the world), they always want to help.
 ---------------------------------------------------------------------
 
+After the whole fiasco, I took a year off to practice photography, explore, and
+hike in various mountains in India. Then I decided to try out masters somewhere
+outside of India. I ended up doing Erasmus Mundus which gave me a plenty of opportunities
+to socialize and learn from people of very different origins and cultures. Then
+things went on to me doing a PhD at University of Oslo with Dr. Carsten Griwodz and
+Dr. Pal Halvorsen. Due to these guys, I met many top researchers and scientists in the
+field of multimedia. And many of them just wanted to help me do good in my PhD. None
+of them had any benefit from it. They would organize visits to various labs and
+participate in long discussions with valuable input just so that I could progress.
 
+In the process I met Dr. Klara Nahrstedt at a conference, she is a renowned scientist
+and helped me arrange a visit to the CS department at UIUC(one of the best ones in the
+world). Similarly, when I met Dr. Wei Tsang Ooi from NUS at a conference, I was truly inspired with his
+kindness and humbleness. He is a very accomplished scientist in the field of multimedia.
+Yet he speaks to you as a friend. Likewise Dr. Judith Alice Redi from TU Delft was a source of
+great inspiration for me with her work at such a young age. Eventually, I was very proud and extremely
+happy to have two of these three inspiring people to be on my PhD committee. My excitement was barely
+contained when they agreed.
+
+I did spend many hours at the lab, sometimes late into the night. But all of that work
+was done by choice and to keep up with other researchers. I have to say that I did hate writing
+the thesis quite a lot, but it was a necessary evil for the PhD. At the end of the day, none of these
+top people in the field caused me any stress, on the contrary they helped me quite a bit. Without them
+my PhD would not have been the same.
+
+
+Concluding note.
+-----------------
+
+Looking back as a retrospective.
+
+|     What went well                      | What could have gone better                         |
+| --------------------------------------  |-----------------------------------------------------|
+| I did get a PhD in CS by the age of 28  | I should have been a less pain in the ass sometimes |
+| Not many people consider me stupid now  | blah blah blah |
