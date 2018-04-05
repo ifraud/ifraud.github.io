@@ -158,7 +158,7 @@ with flying hats in the fall. We got in contact with Dr. Mona Mathur and started
 
 Things were going fine in part-1 until we reached the end. At the end of 7th semester, in addition to most final exams - we also do our
 job placements. Voila! I get an email from Dr. Mona Mathur, to refactor the code - which was her mistake to start with as she *forgot* to give
-the codings standards before we started coding. I tried to tell her that we have a lot of exams and other things now, refactoring an already
+the coding standards before we started coding, despite asking her a couple of times. I tried to tell her that we have a lot of exams and other things now, refactoring an already
 working code before our demo session is not really at the highest of my priorites. Looking back at it, I am still very confused at what is
 wrong with saying that. It is an adult to adult conversation with clash of opinions. Except that is not how anything works in India, as I learnt
 then, even in the most premiere institutes. This is because we have a few *frustrated old* fools with very little accomplished in the past on their
