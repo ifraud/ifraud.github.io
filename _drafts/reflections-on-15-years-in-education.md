@@ -230,17 +230,20 @@ They even have a few suicides in these premiere institutes of India, the biggest
 democracy in the world - because these top-minds feel opressed and that is
 their only way out.
 
+<div class="message">
 For students:
 When shit hits the fan due to circumstances or shitty people, do not worry -
 make more noise, there are powerful people out there that do want to help you.
 You just need to make enough noise to reach them.
+</div>
 
+<div class="message">
 For parents:
 The reason that this story is going out now is because people in India think
 that all their kids are going to find in IIT is glory and fat salary packages.
 Due to those pursuits, they put stress on very young kids - stop doing that,
 don't be a shitty parent.
-
+</div>
 
 The best people in the field (or the world), they always want to help.
 ---------------------------------------------------------------------
@@ -270,13 +273,23 @@ the thesis quite a lot, but it was a necessary evil for the PhD. At the end of t
 top people in the field caused me any stress, on the contrary they helped me quite a bit. Without them
 my PhD would not have been the same.
 
+There are many issues with academic world, but those are being discussed all over. Infact, I
+quit academic world due to the lack of a balanced life. But such issues are now
+widely discussed. Moreover, I did not encounter many of those issues during my PhD to cover as anecdotes.
 
 Concluding note.
 -----------------
 
 Looking back as a retrospective.
 
-|     What went well                      | What could have gone better                         |
+|     What went well!                      | What could have gone better                         |
 | --------------------------------------  |-----------------------------------------------------|
 | I did get a PhD in CS by the age of 28  | I should have been a less pain in the ass sometimes |
-| Not many people consider me stupid now  | blah blah blah |
+| I found my love for physics and mathematics  | I should have focussed on writing |
+| The school methods are now proved to be wrong | More kids and parents should be aware of such places |
+
+The point is that instead of teaching what mistakes are fine to make and what mistakes are bad. My school
+taught us making any mistake is bad. To the point that people do not distinguish from a necessary mistake
+to a horrible one. Kids learn how to walk by falling several times. Obviously teaching a kid to not fall and
+ not to fall over a cliff is not the same thing - this difference is what needs to be taught - not all the rigid
+bull shit about religions, cultures, traditions, and such.
