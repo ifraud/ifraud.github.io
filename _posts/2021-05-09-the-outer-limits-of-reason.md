@@ -3,8 +3,7 @@ layout: post
 title: The Outer Limits of Reason by Noson S. Yanofsky
 tags:
   - physics
-  - mathematics
-  - computers
+  - math
   - book
 ---
 
