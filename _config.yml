@@ -6,8 +6,8 @@ permalink:           pretty
 title:               iFraud
 tagline:             'Random Scratch Book'
 description:         'A place to dump everything.'
-url:                 http://ifraud.github.io
-baseurl:             http://ifraud.github.io
+url:                 https://ifraud.github.io
+baseurl:             https://ifraud.github.io
 paginate:            4
 
 # About/contact
